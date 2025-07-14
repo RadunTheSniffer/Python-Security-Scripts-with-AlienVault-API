@@ -9,6 +9,6 @@ A compilation of scripts used to automate security checks by leveraging AlienVau
 ```
 --scripts
      |
-     --
-     --
+     -- DomainCheck.py
+     -- URLChecker.py
 ```
