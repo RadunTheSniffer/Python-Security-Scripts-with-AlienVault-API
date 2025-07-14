@@ -3,7 +3,7 @@ import requests
 from urllib.parse import quote
 
 
-otx_api_key = '124d438ef8bb0430e482bf823c6a1531bf866411918a168277f4a9c4ce34f34d'
+otx_api_key = 'your-otx-api-key'
 url_to_check = 'wnt-some-push.net'
 encoded_url = quote(url_to_check, safe='')
 otx_url = f'https://otx.alienvault.com/api/v1/indicators/url/{encoded_url}/general'
