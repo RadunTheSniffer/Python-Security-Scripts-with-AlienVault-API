@@ -6,7 +6,9 @@ A compilation of scripts used to automate security checks by leveraging AlienVau
 
 # File Directory
 
+```
 --scripts
      |
      --
      --
+```
