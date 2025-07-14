@@ -3,7 +3,7 @@ import requests
 from urllib.parse import quote
 
 
-otx_api_key = '124d438ef8bb0430e482bf823c6a1531bf866411918a168277f4a9c4ce34f34d'
+otx_api_key = 'your-otx-api-key'
 domain_to_check = 'kbsbridgeloans.com'
 encoded_domain = quote(domain_to_check, safe='')
 otx_url = f'https://otx.alienvault.com/api/v1/indicators/domain/{encoded_domain}/general'
